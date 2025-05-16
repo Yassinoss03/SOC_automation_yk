@@ -3,7 +3,7 @@
 ## Overview
 
 
-https://private-user-images.githubusercontent.com/54459574/278807531-6dc2edf0-dc85-4b2f-8712-07e0137c7e12.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc0MjYzODksIm5iZiI6MTc0NzQyNjA4OSwicGF0aCI6Ii81NDQ1OTU3NC8yNzg4MDc1MzEtNmRjMmVkZjAtZGM4NS00YjJmLTg3MTItMDdlMDEzN2M3ZTEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTE2VDIwMDgwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJhMGZiOTQyY2I1ZWZjOTliMDgwMmJlOTFjMWZiZTY4MzEzN2YyNmIwN2Q4NjkwZDZmYTMyYmVlZWRiYjY0ZWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.0wWw_rsvjdIrLa4Umu1IIK7HNimtgiTHGy09m-etlQ0
+<img width="615" alt="main_pic" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/6dc2edf0-dc85-4b2f-8712-07e0137c7e12">
 
 This script automates the setup of a comprehensive security monitoring environment, including a Security Information and Event Management (SIEM) system,Network-based Intrusion Detection System (NIDS) and Host-based Intrusion Detection System (HIDS) on a single machine. It streamlines the installation process, making it accessible to users with different levels of technical expertise.
 
