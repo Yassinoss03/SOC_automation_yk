@@ -18,24 +18,24 @@ The script facilitates the installation of the following SOC components:
 
    
 
-   <img width="918" alt="elasticsearch" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/31be9f30-ebed-49ae-8eed-807c70945eb0">
+   <img width="918" alt="elasticsearch" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image4.jpg">
 
 
 3. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
 **Note:** Suricata will monitor the local interface of the machine where it is installed. To monitor the entire network traffic, it should receive traffic from a TAP device or a SPAN port.
 
-<img width="439" alt="Suricata_setup" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/4e1f2e75-3ccc-4976-b976-178a068c92c5">
+<img width="439" alt="Suricata_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image6.png">
 
-<img width="957" alt="suricata_dashboard" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/7e5388da-a104-4807-a008-67bd0d289ee7">
+<img width="957" alt="suricata_dashboard" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image5.png">
 
 5. **HIDS (Host-based Intrusion Detection System):** The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
    
-<img width="399" alt="wazuh_setup" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/37c42fe1-665b-41c5-9d1b-7209472e9c08">
+<img width="399" alt="wazuh_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image7.png">
 
 
 
-<img width="929" alt="wazuh" src="https://github.com/samiul008ghub/soc_setup/assets/54459574/5e6535fc-e082-43d4-861b-cc70cee0302e">
+<img width="929" alt="wazuh" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image3.jpg">
 
 ## System Requirements
 
@@ -52,11 +52,11 @@ If your system doesn't meet these requirements, the script will issue a warning 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/samiul008ghub/soc_setup/
+   git clone https://github.com/Yassinoss03/SOC_automation_yk
 
 2. Navigate to the repository's directory:
    ```bash
-   cd soc_setup
+   cd setup_script
 3. Make the setup_script.sh executable:
    ```bash
    chmod +x setup_script.sh
