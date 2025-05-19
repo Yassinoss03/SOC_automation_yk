@@ -26,14 +26,14 @@ The script facilitates the installation of the following SOC components:
 2. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
 **Note:** Suricata will monitor the local interface of the machine where it is installed. To monitor the entire network traffic, it should receive traffic from a TAP device or a SPAN port.
 
-<img width="439" alt="Suricata_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image6.png">
+<img width="555" alt="Suricata_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image6.png">
 
 <img width="957" alt="suricata_dashboard" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image5.png">
 
 3. **HIDS (Host-based Intrusion Detection System):** The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
    
-<img width="399" alt="wazuh_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image7.png">
+<img width="555" alt="wazuh_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image7.png">
 
 
 
