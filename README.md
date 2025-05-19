@@ -14,21 +14,23 @@ This script automates the setup of a comprehensive security monitoring environme
 The script facilitates the installation of the following SOC components:
 
 1. **SIEM (Security Information and Event Management):** This component combines Elasticsearch, Kibana, and Filebeat to provide a powerful platform for monitoring and analyzing security events in your environment. The SIEM setup includes Elasticsearch, Kibana and Filebeat version 7.17.13 as it is the compatible version to integrate with Wazuh manager version 4.5
-   <img width="443" alt="siem_setup_1" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image2.png">
+
+
+   <img width="555" alt="siem_setup_1" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image2.png">
 
    
 
    <img width="918" alt="elasticsearch" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image4.jpg">
 
 
-3. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
+2. **NIDS (Network-based Intrusion Detection System):** Suricata, a high-performance NIDS, is configured to help protect your network from intrusions and suspicious activities.
 **Note:** Suricata will monitor the local interface of the machine where it is installed. To monitor the entire network traffic, it should receive traffic from a TAP device or a SPAN port.
 
 <img width="439" alt="Suricata_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image6.png">
 
 <img width="957" alt="suricata_dashboard" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image5.png">
 
-5. **HIDS (Host-based Intrusion Detection System):** The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
+3. **HIDS (Host-based Intrusion Detection System):** The script installs the Wazuh Manager, an open-source HIDS. It aids in monitoring, detecting, and responding to security threats on individual hosts. The setup includes the installation of Wazuh Manager version 4.5
 
    
 <img width="399" alt="wazuh_setup" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image7.png">
@@ -105,9 +107,22 @@ start the bot)
 
 
  <img width="443" alt="siem_setup_1" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image11.png">
+ 
+
+4. Next navigations to (Get Telegram Chat ID) link : https://sean-
+bradley.medium.com/get-telegram-chat-id-80b575520659) go to this
+websites and copy paste the api which created by botfather: and make sure
+that started the bots before copying api key in chat-id)
 
 
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image12.png">
 
+5. Next lets configuration telegram alert and lets create the custom-telegram
+and get messages and alert messages in telegram bot group which we have
+created:
+• Go to wazuh-manager machine open vim or nano
+/var/ossec/integrations/custom-telegram inside folder we need create
+the rules;
 
 
 
