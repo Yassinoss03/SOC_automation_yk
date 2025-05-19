@@ -124,7 +124,7 @@ created:
  /usr/local/bin/telegram-alert.sh inside folder we need to add chat id and bot token;
 
 
-<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image13.png">
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image 13.png">
 
 
 
@@ -142,13 +142,13 @@ in telegram bot group which we have created:
 • Go to suricata  machine create the folder and  open with  nano
  /etc/systemd/system/suricata-telegram.service inside folder we need to add the last command ;
 
-<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image15.png">
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image 15.png">
 
 
 
 9.Resultat :
 
-<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image14.png">
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image 14.png">
 
 
 
