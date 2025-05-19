@@ -82,7 +82,7 @@ Data Backup: Before proceeding, it's advisable to backup your data, especially i
 ## Security Best Practices
 After setting up the security components, consider following best practices for system hardening, firewall configurations, and securing sensitive data.
 
-##Telegram Integration with Suricata 
+## Telegram Integration with Suricata 
 
 Requirements:
 • Telegram Bot Token
