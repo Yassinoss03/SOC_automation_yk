@@ -120,9 +120,44 @@ that started the bots before copying api key in chat-id)
 5. Next lets configuration telegram alert and lets create the custom-telegram
 and get messages and alert messages in telegram bot group which we have
 created:
-• Go to wazuh-manager machine open vim or nano
-/var/ossec/integrations/custom-telegram inside folder we need create
-the rules;
+• Go to suricata  machine create the folder and  open with  nano
+ /usr/local/bin/telegram-alert.sh inside folder we need to add chat id and bot token;
+
+
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image13.png">
+
+
+
+6. Make /usr/local/bin/telegram-alert.sh executable:
+   ```bash
+   chmod +x /usr/local/bin/telegram-alert.sh
+
+7. Start the reading from fast.log :
+   ```bash
+   tail -F /var/log/suricata/fast.log | /usr/local/bin/telegram-alert.sh
+
+
+8. Next lets configuration  autamatisation telegram alert and get messages and alert messages 
+in telegram bot group which we have created:
+• Go to suricata  machine create the folder and  open with  nano
+ /etc/systemd/system/suricata-telegram.service inside folder we need to add the last command ;
+
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image15.png">
+
+
+
+9.Resultat :
+
+<img width="615" alt="main_pic" src="https://github.com/Yassinoss03/SOC_automation_yk/blob/main/image14.png">
+
+
+
+
+
+
+
+
+
 
 
 
