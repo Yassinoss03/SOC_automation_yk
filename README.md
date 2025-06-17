@@ -58,14 +58,14 @@ If your system doesn't meet these requirements, the script will issue a warning 
 
 2. Navigate to the repository's directory:
    ```bash
-   cd setup_script
+   cd SOC_automation_yk
 3. Make the setup_script.sh executable:
    ```bash
    chmod +x setup_script.sh
 4. Execute the setup_script.sh:
    ```bash
    ./setup_script.sh
-5. Follow the on-screen prompts to choose which components you want to install and continue with the setup.
+5. Follow the on-screen prompts to select the components you want to install and proceed with the setup.
    Post-Installation Steps
 6. After successfully running the script and completing the NIDS (Suricata) setup, consider the following post-installation steps:
 
