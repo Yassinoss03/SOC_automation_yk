@@ -43,7 +43,7 @@ The script facilitates the installation of the following SOC components:
 
 Before running the script, please ensure that your system meets the following requirements:
 
-- Ubuntu OS
+- Linux OS
 - Minimum 4GB of RAM
 - Minimum 20GB of free disk space
 
